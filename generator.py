@@ -87,4 +87,4 @@ if __name__ == "__main__":
         event_campaign_id=os.environ.get("ACTION_NETWORK_EC_ID"),
         ACTION_NETWORK_API_KEY=os.environ.get("ACTION_NETWORK_API_KEY")
     )
-    new_map.map()
+    new_map.map(output_file="index.html")
