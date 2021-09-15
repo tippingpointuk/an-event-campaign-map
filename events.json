@@ -1,1 +1,82 @@
-{"events": [{"description": "<p>Come and join our Newcastle climate memorial on #DefundClimateChaos Global day of action. <br></p>As people globally face the consequences of the climate crisis, we will come together to demand care and repair at Lloyd\u2019s of London insurance company Chubb Insurance. Join us to bring to life the memories of every person harmed by the injustices of the climate crisis.<p>We want to shed light on Lloyd\u2019s of London's appalling environmental record, and the colonialist practices Lloyd\u2019s wealth grew from. From the insurance of slave ships, to the insurance of climate-destroying projects that dispossess indigenous peoples of their land, Lloyd\u2019s have blood on their hands.</p><span></span><span></span><span></span>.Through the memorial we will bring to life the memories of every person harmed by the injustices of the climate crisis. As people globally face extreme and destructive weather, we will come together to demand care and repair with them.", "start_date": "2021-10-29T15:00:00Z", "location": {"venue": "Rotterdam House", "address_lines": ["116 Quayside"], "locality": "Newcastle upon Tyne", "postal_code": "NE1 3DY", "country": "GB", "location": {"latitude": 54.971376, "longitude": -1.597515, "accuracy": "Rooftop"}}, "title": "Chubb Insurance - Climate Justice Memorial", "browser_url": "https://actionnetwork.org/events/chubb-insurance-climate-justice-memorial"}, {"description": "<p>Come and join our London climate memorial on #DefundClimateChaos Global day of action. </p><p>As people globally face the consequences of the climate crisis, we will come together to demand care and repair at Lloyd\u2019s of London insurance companies. Join us to bring to life the memories of every person harmed by the injustices of the climate crisis. </p><p>We want to shed light on Lloyd\u2019s of London's appalling environmental record, and the colonialist practices Lloyd\u2019s wealth grew from. From the insurance of slave ships, to the insurance of climate-destroying projects that dispossess indigenous peoples of their land, Lloyd\u2019s have blood on their hands.</p>Through the memorial we will bring to life the memories of every person harmed by the injustices of the climate crisis. As people globally face extreme and destructive weather, we will come together to demand care and repair with them.", "start_date": "2021-10-29T09:00:00Z", "location": {"venue": "Lloyd's of London HQ", "address_lines": ["1 Lime St"], "locality": "London", "postal_code": "EC3M 7HA", "country": "GB", "location": {"latitude": 51.513019, "longitude": -0.082394, "accuracy": "Rooftop"}}, "title": "Lloyd's of London - Climate Justice Memorial", "browser_url": "https://actionnetwork.org/events/lloyds-of-london-climate-justice-memorial"}], "orgs": [{"name": "Defund Climate Chaos", "website": "https://defundclimatechaos.uk", "AN_group": "https://actionnetwork.org/groups/defund-climate-chaos", "slug": "defund-climate-chaos", "host_url": ""}, {"name": "Coal Action Network", "website": "https://www.coalaction.org.uk/", "AN_group": "https://actionnetwork.org/groups/coal-action-network", "slug": "CAN", "host_url": "", "event_campaign_id": "3d8f9cd9-b562-4b3b-95da-162de2d7a16f"}]}
+{
+  "events": [
+    {
+      "description": "<p>Throughout the day on October 29, people will be taking bold, creative actions in the City of London and elsewhere outside the UK banks and insurers still funding the climate crisis. &nbsp;Together we’ll be laying the blame squarely at the doorsteps of the worst fossil fuel financiers. </p><p>As the day closes and dusk draws in, we invite everyone to regroup and join us outside the Bank of England to co-create a powerful National Climate Justice Memorial and demand that the UK stops funding climate chaos immediately. &nbsp;</p><p>We invite you to bring along and lay your own tributes to loved ones in communities here and around the world who are fighting the injustices of rising floods, wildfires and superstorms. &nbsp;</p><p>On the eve of the COP26 climate talks, we’ll hear the voices and demands of frontline communities, Pacific Climate Warriors and youth activists, for the UK to lead the world in bold climate action by ending the financing of fossil fuels for good.<br></p><p><br></p><p><br></p><p><br></p><p><br></p>",
+      "start_date": "2021-10-29T17:30:00Z",
+      "location": {
+        "venue": "Bank of England",
+        "address_lines": [
+          "Threadneedle St, "
+        ],
+        "locality": "London ",
+        "postal_code": "EC2R 8AH",
+        "country": "GB",
+        "location": {
+          "latitude": 51.513508,
+          "longitude": -0.088729,
+          "accuracy": "Rooftop"
+        }
+      },
+      "title": "National Climate Justice Memorial",
+      "browser_url": "https://actionnetwork.org/events/national-climate-justice-memorial"
+    },
+    {
+      "description": "<p>Come and join our Newcastle climate memorial on #DefundClimateChaos Global day of action. <br></p>As people globally face the consequences of the climate crisis, we will come together to demand care and repair at Lloyd’s of London insurance company Chubb Insurance. Join us to bring to life the memories of every person harmed by the injustices of the climate crisis.<p>We want to shed light on Lloyd’s of London's appalling environmental record, and the colonialist practices Lloyd’s wealth grew from. From the insurance of slave ships, to the insurance of climate-destroying projects that dispossess indigenous peoples of their land, Lloyd’s have blood on their hands.</p><span></span><span></span><span></span>.Through the memorial we will bring to life the memories of every person harmed by the injustices of the climate crisis. As people globally face extreme and destructive weather, we will come together to demand care and repair with them.",
+      "start_date": "2021-10-29T15:00:00Z",
+      "location": {
+        "venue": "Rotterdam House",
+        "address_lines": [
+          "116 Quayside"
+        ],
+        "locality": "Newcastle upon Tyne",
+        "postal_code": "NE1 3DY",
+        "country": "GB",
+        "location": {
+          "latitude": 54.971376,
+          "longitude": -1.597515,
+          "accuracy": "Rooftop"
+        }
+      },
+      "title": "Chubb Insurance - Climate Justice Memorial",
+      "browser_url": "https://actionnetwork.org/events/chubb-insurance-climate-justice-memorial"
+    },
+    {
+      "description": "<p>Come and join our London climate memorial on #DefundClimateChaos Global day of action. </p><p>As people globally face the consequences of the climate crisis, we will come together to demand care and repair at Lloyd’s of London insurance companies. Join us to bring to life the memories of every person harmed by the injustices of the climate crisis. </p><p>We want to shed light on Lloyd’s of London's appalling environmental record, and the colonialist practices Lloyd’s wealth grew from. From the insurance of slave ships, to the insurance of climate-destroying projects that dispossess indigenous peoples of their land, Lloyd’s have blood on their hands.</p>Through the memorial we will bring to life the memories of every person harmed by the injustices of the climate crisis. As people globally face extreme and destructive weather, we will come together to demand care and repair with them.",
+      "start_date": "2021-10-29T09:00:00Z",
+      "location": {
+        "venue": "Lloyd's of London HQ",
+        "address_lines": [
+          "1 Lime St"
+        ],
+        "locality": "London",
+        "postal_code": "EC3M 7HA",
+        "country": "GB",
+        "location": {
+          "latitude": 51.513019,
+          "longitude": -0.082394,
+          "accuracy": "Rooftop"
+        }
+      },
+      "title": "Lloyd's of London - Climate Justice Memorial",
+      "browser_url": "https://actionnetwork.org/events/lloyds-of-london-climate-justice-memorial"
+    }
+  ],
+  "orgs": [
+    {
+      "name": "Defund Climate Chaos",
+      "website": "https://defundclimatechaos.uk",
+      "AN_group": "https://actionnetwork.org/groups/defund-climate-chaos",
+      "slug": "DCC",
+      "host_url": "https://actionnetwork.org/events/new?event_campaign_id=13806",
+      "event_campaign_id": "a059b6bb-9d82-4e93-b3bb-d5f77cc60e34"
+    },
+    {
+      "name": "Coal Action Network",
+      "website": "https://www.coalaction.org.uk/",
+      "AN_group": "https://actionnetwork.org/groups/coal-action-network",
+      "slug": "CAN",
+      "host_url": "",
+      "event_campaign_id": "3d8f9cd9-b562-4b3b-95da-162de2d7a16f"
+    }
+  ]
+}
