@@ -1,0 +1,20 @@
+{
+  "orgs":[
+    { 
+      "name": "Defund Climate Chaos",
+      "website": "https://defundclimatechaos.uk",
+      "AN_group": "https://actionnetwork.org/groups/defund-climate-chaos",
+      "slug": "DCC",
+      "host_url": "https://actionnetwork.org/events/new?event_campaign_id=13806",
+      "event_campaign_id": "a059b6bb-9d82-4e93-b3bb-d5f77cc60e34"
+    },
+    {
+      "name": "Coal Action Network",
+      "website": "https://www.coalaction.org.uk/",
+      "AN_group": "https://actionnetwork.org/groups/coal-action-network",
+      "slug": "CAN",
+      "host_url": "",
+      "event_campaign_id": "3d8f9cd9-b562-4b3b-95da-162de2d7a16f"
+    }
+  ]
+}

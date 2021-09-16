@@ -9,40 +9,49 @@ import folium.plugins
 import branca
 
 class ActionNetworkMap:
-    def __init__(self, event_campaign_id=None,ACTION_NETWORK_API_KEY=None):
-        self.api_url = 'https://actionnetwork.org/api/v2'
-        if not ACTION_NETWORK_API_KEY:
-            raise Exception("No API key provided")
-        self.headers = {
-            "OSDI-API-Token": ACTION_NETWORK_API_KEY,
-            "Content-Type": "application/json"
-        }
-        self.event_campaign_id = event_campaign_id
-        if event_campaign_id:
-            self.events_campaign_url = f'{self.api_url}/event_campaigns/{event_campaign_id}'
-            # test campaign exists
-            ec_response = requests.get(self.events_campaign_url,headers=self.headers)
-            if ec_response.status_code == 404:
-                raise Exeception("Event Campaign does not exist")
-            elif ec_response.status_code == 403:
-                raise Exeception("Unauthorised. Event Campaign not available")
-            self.events_url = f'{self.api_url}/event_campaigns/{event_campaign_id}/events'
+    def __init__(self, event_campaign_id=None,ACTION_NETWORK_API_KEY=None,public_data=None):
+        if public_data:
+            self.public_data = public_data
         else:
-            # If no event campaign, use all groups events
-            self.events_url = f'{self.api_url}/events'
-        self.get_events()
-        self.public_data()
+            self.api_url = 'https://actionnetwork.org/api/v2'
+            if not ACTION_NETWORK_API_KEY:
+                raise Exception("No API key provided")
+            self.headers = {
+                "OSDI-API-Token": ACTION_NETWORK_API_KEY,
+                "Content-Type": "application/json"
+            }
+            self.event_campaign_id = event_campaign_id
+            if event_campaign_id:
+                self.events_campaign_url = f'{self.api_url}/event_campaigns/{event_campaign_id}'
+                # test campaign exists
+                ec_response = requests.get(self.events_campaign_url,headers=self.headers)
+                if ec_response.status_code == 404:
+                    raise Exception("Event Campaign does not exist")
+                elif ec_response.status_code == 403:
+                    raise Exception("Unauthorised. Event Campaign not available")
+                self.events_url = f'{self.api_url}/event_campaigns/{event_campaign_id}/events'
+            else:
+                # If no event campaign, use all groups events
+                self.events_url = f'{self.api_url}/events'
+            self.get_events()
+            self.public_data()
     def get_events(self):
         # TODO deal with multi[le requests]
         events_data = requests.get(self.events_url,headers=self.headers)
         self.events = events_data.json()["_embedded"]["osdi:events"]
+        # Loop through and get
+        for e in self.events:
+            embed_url = e["_links"]["action_network:embed"]["href"]
+            embed_data = requests.get(embed_url,headers=self.headers)
+            e["embed"] = embed_data.json()
         return self.events
     def public_data(self):
-        keys = {"title","description","location","browser_url","start_date"}
+        keys = {"title","description","location","browser_url","start_date","featured_image_url","end_date","embed"}
         events=[]
         for e in self.events:
             event = { key:value for key,value in e.items() if key in keys}
-            events.append(event)
+            if e["visibility"] == "public":
+                events.append(event)
         self.public_data = events
     def json(self,file="events.json"):
         json_data = json.dumps({"events":self.public_data})
@@ -82,9 +91,4 @@ class ActionNetworkMap:
         return
 
 if __name__ == "__main__":
-    load_dotenv()
-    new_map = ActionNetworkMap(
-        event_campaign_id=os.environ.get("ACTION_NETWORK_EC_ID"),
-        ACTION_NETWORK_API_KEY=os.environ.get("ACTION_NETWORK_API_KEY")
-    )
-    new_map.map(output_file="index.html")
+    pass
