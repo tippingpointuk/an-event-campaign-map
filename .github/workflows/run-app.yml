@@ -5,16 +5,18 @@ on:
     - cron: "*/15 * * * *"
 
 jobs:
-  build_and_deploy:
+  build:
     runs-on: ubuntu-latest
-    steps:
-		- name: checkout repo content
-          uses: actions/checkout@v2 # checkout the repository content to github runner.
-        - name: setup python
-          uses: actions/setup-python@v2
-          with:
-            python-version: 3.8 #install the python needed
-		- name: run generator
-		  run: python app.py
-		  env:
-		  	ENV_FILE: ${{ secrets.ENV_FILE }}
+		
+		steps:
+			- name: checkout repo content
+				uses: actions/checkout@v2 # checkout the repository content to github runner.
+			- name: setup python
+				uses: actions/setup-python@v2
+				with:
+					python-version: 3.8 #install the python needed
+			- name: run generator
+				run: | 
+					python app.py
+				env:
+					ENV_FILE: ${{ secrets.ENV_FILE }}
