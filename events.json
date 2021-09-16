@@ -17,8 +17,13 @@
           "accuracy": "Rooftop"
         }
       },
+      "end_date": "2021-10-29T20:00:00Z",
       "title": "National Climate Justice Memorial",
-      "browser_url": "https://actionnetwork.org/events/national-climate-justice-memorial"
+      "browser_url": "https://actionnetwork.org/events/national-climate-justice-memorial",
+      "featured_image_url": "https://can2-prod.s3.amazonaws.com/events/photos/001/074/044/original/Defund_Climate_Chaos_share_image.png",
+      "embed": {
+        "error": "Couldn't find Event with uuid = baca8706-eb71-44c9-bb6a-1a13dceec04d"
+      }
     },
     {
       "description": "<p>Come and join our Newcastle climate memorial on #DefundClimateChaos Global day of action. <br></p>As people globally face the consequences of the climate crisis, we will come together to demand care and repair at Lloyd’s of London insurance company Chubb Insurance. Join us to bring to life the memories of every person harmed by the injustices of the climate crisis.<p>We want to shed light on Lloyd’s of London's appalling environmental record, and the colonialist practices Lloyd’s wealth grew from. From the insurance of slave ships, to the insurance of climate-destroying projects that dispossess indigenous peoples of their land, Lloyd’s have blood on their hands.</p><span></span><span></span><span></span>.Through the memorial we will bring to life the memories of every person harmed by the injustices of the climate crisis. As people globally face extreme and destructive weather, we will come together to demand care and repair with them.",
@@ -38,7 +43,33 @@
         }
       },
       "title": "Chubb Insurance - Climate Justice Memorial",
-      "browser_url": "https://actionnetwork.org/events/chubb-insurance-climate-justice-memorial"
+      "browser_url": "https://actionnetwork.org/events/chubb-insurance-climate-justice-memorial",
+      "featured_image_url": "https://can2-prod.s3.amazonaws.com/events/photos/001/072/963/original/Newcastle_Protest.jpg",
+      "embed": {
+        "embed_standard_default_styles": "<link href='https://actionnetwork.org/css/style-embed-v3.css' rel='stylesheet' type='text/css' /><script src='https://actionnetwork.org/widgets/v4/event/chubb-insurance-climate-justice-memorial?format=js&source=widget'></script><div id='can-event-area-chubb-insurance-climate-justice-memorial' style='width: 100%'><!-- this div is the target for our HTML insertion --></div>",
+        "embed_standard_layout_only_styles": "<link href='https://actionnetwork.org/css/style-embed-whitelabel-v3.css' rel='stylesheet' type='text/css' /><script src='https://actionnetwork.org/widgets/v4/event/chubb-insurance-climate-justice-memorial?format=js&source=widget'></script><div id='can-event-area-chubb-insurance-climate-justice-memorial' style='width: 100%'><!-- this div is the target for our HTML insertion --></div>",
+        "embed_standard_no_styles": "<script src='https://actionnetwork.org/widgets/v4/event/chubb-insurance-climate-justice-memorial?format=js&source=widget'></script><div id='can-event-area-chubb-insurance-climate-justice-memorial' style='width: 100%'><!-- this div is the target for our HTML insertion --></div>",
+        "embed_full_default_styles": "<link href='https://actionnetwork.org/css/style-embed-v3.css' rel='stylesheet' type='text/css' /><script src='https://actionnetwork.org/widgets/v4/event/chubb-insurance-climate-justice-memorial?format=js&source=widget&style=full'></script><div id='can-event-area-chubb-insurance-climate-justice-memorial' style='width: 100%'><!-- this div is the target for our HTML insertion --></div>",
+        "embed_full_layout_only_styles": "<link href='https://actionnetwork.org/css/style-embed-whitelabel-v3.css' rel='stylesheet' type='text/css' /><script src='https://actionnetwork.org/widgets/v4/event/chubb-insurance-climate-justice-memorial?format=js&source=widget&style=full'></script><div id='can-event-area-chubb-insurance-climate-justice-memorial' style='width: 100%'><!-- this div is the target for our HTML insertion --></div>",
+        "embed_full_no_styles": "<script src='https://actionnetwork.org/widgets/v4/event/chubb-insurance-climate-justice-memorial?format=js&source=widget&style=full'></script><div id='can-event-area-chubb-insurance-climate-justice-memorial' style='width: 100%'><!-- this div is the target for our HTML insertion --></div>",
+        "_links": {
+          "self": {
+            "href": "https://actionnetwork.org/api/v2/events/b760b722-7b3e-4a6c-b14d-cbfe2e4aec31/embed"
+          },
+          "curies": [
+            {
+              "name": "osdi",
+              "href": "https://actionnetwork.org/docs/v2/{rel}",
+              "templated": true
+            },
+            {
+              "name": "action_network",
+              "href": "https://actionnetwork.org/docs/v2/{rel}",
+              "templated": true
+            }
+          ]
+        }
+      }
     },
     {
       "description": "<p>Come and join our London climate memorial on #DefundClimateChaos Global day of action. </p><p>As people globally face the consequences of the climate crisis, we will come together to demand care and repair at Lloyd’s of London insurance companies. Join us to bring to life the memories of every person harmed by the injustices of the climate crisis. </p><p>We want to shed light on Lloyd’s of London's appalling environmental record, and the colonialist practices Lloyd’s wealth grew from. From the insurance of slave ships, to the insurance of climate-destroying projects that dispossess indigenous peoples of their land, Lloyd’s have blood on their hands.</p>Through the memorial we will bring to life the memories of every person harmed by the injustices of the climate crisis. As people globally face extreme and destructive weather, we will come together to demand care and repair with them.",
@@ -58,7 +89,33 @@
         }
       },
       "title": "Lloyd's of London - Climate Justice Memorial",
-      "browser_url": "https://actionnetwork.org/events/lloyds-of-london-climate-justice-memorial"
+      "browser_url": "https://actionnetwork.org/events/lloyds-of-london-climate-justice-memorial",
+      "featured_image_url": "https://can2-prod.s3.amazonaws.com/events/photos/001/072/959/original/Lloyd's_protest.jpg",
+      "embed": {
+        "embed_standard_default_styles": "<link href='https://actionnetwork.org/css/style-embed-v3.css' rel='stylesheet' type='text/css' /><script src='https://actionnetwork.org/widgets/v4/event/lloyds-of-london-climate-justice-memorial?format=js&source=widget'></script><div id='can-event-area-lloyds-of-london-climate-justice-memorial' style='width: 100%'><!-- this div is the target for our HTML insertion --></div>",
+        "embed_standard_layout_only_styles": "<link href='https://actionnetwork.org/css/style-embed-whitelabel-v3.css' rel='stylesheet' type='text/css' /><script src='https://actionnetwork.org/widgets/v4/event/lloyds-of-london-climate-justice-memorial?format=js&source=widget'></script><div id='can-event-area-lloyds-of-london-climate-justice-memorial' style='width: 100%'><!-- this div is the target for our HTML insertion --></div>",
+        "embed_standard_no_styles": "<script src='https://actionnetwork.org/widgets/v4/event/lloyds-of-london-climate-justice-memorial?format=js&source=widget'></script><div id='can-event-area-lloyds-of-london-climate-justice-memorial' style='width: 100%'><!-- this div is the target for our HTML insertion --></div>",
+        "embed_full_default_styles": "<link href='https://actionnetwork.org/css/style-embed-v3.css' rel='stylesheet' type='text/css' /><script src='https://actionnetwork.org/widgets/v4/event/lloyds-of-london-climate-justice-memorial?format=js&source=widget&style=full'></script><div id='can-event-area-lloyds-of-london-climate-justice-memorial' style='width: 100%'><!-- this div is the target for our HTML insertion --></div>",
+        "embed_full_layout_only_styles": "<link href='https://actionnetwork.org/css/style-embed-whitelabel-v3.css' rel='stylesheet' type='text/css' /><script src='https://actionnetwork.org/widgets/v4/event/lloyds-of-london-climate-justice-memorial?format=js&source=widget&style=full'></script><div id='can-event-area-lloyds-of-london-climate-justice-memorial' style='width: 100%'><!-- this div is the target for our HTML insertion --></div>",
+        "embed_full_no_styles": "<script src='https://actionnetwork.org/widgets/v4/event/lloyds-of-london-climate-justice-memorial?format=js&source=widget&style=full'></script><div id='can-event-area-lloyds-of-london-climate-justice-memorial' style='width: 100%'><!-- this div is the target for our HTML insertion --></div>",
+        "_links": {
+          "self": {
+            "href": "https://actionnetwork.org/api/v2/events/4cd25f22-562d-49a5-8e7a-43fb7744ef36/embed"
+          },
+          "curies": [
+            {
+              "name": "osdi",
+              "href": "https://actionnetwork.org/docs/v2/{rel}",
+              "templated": true
+            },
+            {
+              "name": "action_network",
+              "href": "https://actionnetwork.org/docs/v2/{rel}",
+              "templated": true
+            }
+          ]
+        }
+      }
     }
   ],
   "orgs": [
