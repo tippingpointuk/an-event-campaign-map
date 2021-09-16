@@ -1,6 +1,9 @@
 name: Gather data from AN ECs
 
 on:
+  push:
+    branches:
+     - master
   schedule:
     - cron: "*/15 * * * *"
 
@@ -19,4 +22,3 @@ jobs:
           python app.py
         env:
           ENV_FILE: ${{ secrets.ENV_FILE }} # if run.py requires passwords..etc, set it as secrets
-
