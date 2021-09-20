@@ -32,4 +32,5 @@ with open(args.orgs) as orgs_file:
 total_map = ActionNetworkMap(public_data=events["events"])
 
 with open(args.actions, "w+") as events_json:
+    print(events)
     events_json.write(json.dumps(events))
