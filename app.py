@@ -30,6 +30,6 @@ with open(args.orgs) as orgs_file:
             events["events"] += new_map.public_data
 
 total_map = ActionNetworkMap(public_data=events["events"])
-print(yaml.dump(events))
+
 with open(args.actions, "w+") as events_json:
     events_json.write(json.dumps(events))
