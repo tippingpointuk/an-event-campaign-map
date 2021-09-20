@@ -1,7 +1,6 @@
 # A module to create a Folium map from the action network api
 import requests
 import os
-from dotenv import load_dotenv
 import yaml
 import json
 import folium

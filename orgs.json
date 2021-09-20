@@ -1,6 +1,6 @@
 {
   "orgs":[
-    { 
+    {
       "name": "Defund Climate Chaos",
       "website": "https://defundclimatechaos.uk",
       "AN_group": "https://actionnetwork.org/groups/defund-climate-chaos",
@@ -15,6 +15,14 @@
       "slug": "CAN",
       "host_url": "",
       "event_campaign_id": "3d8f9cd9-b562-4b3b-95da-162de2d7a16f"
+    },
+    {
+      "name": "Tipping Point UK",
+      "website": "https://tippingpointuk.org/",
+      "AN_group": "https://actionnetwork.org/groups/tipping-point-uk/",
+      "slug": "TP",
+      "host_url": "https://actionnetwork.org/events/new?event_campaign_id=13583",
+      "event_campaign_id": "4ecbb6ca-995c-4eae-979c-6f986b2b4011"
     }
   ]
 }
