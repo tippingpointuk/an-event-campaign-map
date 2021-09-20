@@ -1,12 +1,12 @@
 from ActionNetwork import ActionNetworkMap
 import json
 import os
-from dotenv import load_dotenv
+# from dotenv import load_dotenv
 import argparse
 
 import yaml
 
-load_dotenv()
+# load_dotenv()
 
 # Set up paths
 arg_parser = argparse.ArgumentParser()
