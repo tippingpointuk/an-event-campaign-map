@@ -4,8 +4,6 @@ on:
   push:
     branches:
      - master
-  schedule:
-    - cron: "*/15 * * * *"
 
 jobs:
   build:
@@ -22,7 +20,6 @@ jobs:
           python -m pip install --upgrade pip
           pip install -r requirements.txt
       - name: execute py script # run the run.py to get the latest data
-        run: |
-          python app.py
+        run: python ${{ github.workspace }}/app.py -o ${{ github.workspace }}/orgs.json -a ${{ github.workspace }}/events.json
         env:
           ENV_FILE: ${{ secrets.ENV_FILE }} # if run.py requires passwords..etc, set it as secrets
