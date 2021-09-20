@@ -24,4 +24,6 @@ jobs:
       - name: execute py script # run the run.py to get the latest data
         run: python ${{ github.workspace }}/app.py -o ${{ github.workspace }}/orgs.json -a ${{ github.workspace }}/events.json
         env:
-          ENV_FILE: ${{ secrets.ENV_FILE }} # if run.py requires passwords..etc, set it as secrets
+          DCC_AN_API_KEY: ${{ secrets.DCC_AN_API_KEY }}
+          CAN_AN_API_KEY: ${{ secrets.CAN_AN_API_KEY }}
+          TP_AN_API_KEY: ${{ secrets.TP_AN_API_KEY }}
