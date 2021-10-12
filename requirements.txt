@@ -2,7 +2,7 @@ branca==0.4.2
 certifi==2021.10.8
 charset-normalizer==2.0.7
 folium==0.12.1
-idna==3.2
+idna==3.3
 Jinja2==3.0.2
 MarkupSafe==2.0.1
 numpy==1.21.2
