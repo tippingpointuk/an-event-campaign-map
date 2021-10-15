@@ -33,7 +33,7 @@ jobs:
         run: |
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action"
-          git diff-index --quiet HEAD || (git commit -a -m'[bot] update files' --allow-empty && git push -f)
+          git diff-index --quiet HEAD || (git commit -a -m'[bot] add event(s)' --allow-empty && git push -f && curl -X POST -d {} https://api.netlify.com/build_hooks/6169b193afb0e42c24c0fd0f)
 
 #       - name: push changes
 #         uses: ad-m/github-push-action@v0.6.0
