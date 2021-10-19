@@ -48,7 +48,7 @@ class ActionNetworkMap:
         events=[]
         for e in self.events:
             event = { key:value for key,value in e.items() if key in keys}
-            if e["visibility"] == "public":
+            if e["visibility"] == "public" and e["status"]=="confirmed":
                 events.append(event)
         self.public_data = events
     def json(self,file="events.json"):
