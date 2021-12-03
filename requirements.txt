@@ -1,6 +1,6 @@
 branca==0.4.2
 certifi==2021.10.8
-charset-normalizer==2.0.8
+charset-normalizer==2.0.9
 folium==0.12.1.post1
 idna==3.3
 Jinja2==3.0.3
