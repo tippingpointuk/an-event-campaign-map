@@ -5,6 +5,6 @@ folium==0.12.1.post1
 idna==3.3
 Jinja2==3.0.3
 MarkupSafe==2.0.1
-numpy==1.21.4
+numpy==1.21.5
 requests==2.26.0
 urllib3==1.26.7
