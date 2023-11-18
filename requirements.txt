@@ -1,5 +1,5 @@
 branca==0.7.0
-certifi==2023.7.22
+certifi==2023.11.17
 charset-normalizer==3.3.2
 folium==0.15.0
 idna==3.4
