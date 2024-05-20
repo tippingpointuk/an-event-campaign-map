@@ -6,6 +6,6 @@ idna==3.7
 Jinja2==3.1.4
 MarkupSafe==2.1.5
 numpy==1.24.4
-requests==2.32.0
+requests==2.32.1
 urllib3==2.2.1
 xyzservices==2024.4.0
